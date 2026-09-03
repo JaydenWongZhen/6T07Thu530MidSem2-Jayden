@@ -4,7 +4,6 @@ function setup() {
     if (mouse.presses()) {
         ball = new Sprite(mousex,mousey,20);
     }        
-    ball.vel.y = 2;
 }
 function draw() {
     background(255);
