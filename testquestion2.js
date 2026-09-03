@@ -9,6 +9,6 @@ function draw() {
     background(255);
     if (mouse.presses()) {
         ball = new Sprite(mouseX,mouseY,20);
-    
+    ball.bounciness = 0.5;
 }
 }
