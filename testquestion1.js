@@ -1,6 +1,6 @@
 function setup() {
     if (mouse.presses()) {
-        ball = new Sprite()
+        ball = ne
     }
 }
 function draw() {
