@@ -3,6 +3,7 @@ function setup() {
     background(255);
     world.gravity.y = 5;
     floor = new Sprite(300,370,600,60,"static");
+    floor.rotation = 1;
 }        
 
 function draw() {
