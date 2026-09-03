@@ -2,7 +2,7 @@ function setup() {
     createCanvas(600,400);
     background(255);
     world.gravity.y = 5;
-    floor = new Sprite(0,340,600,60,"static");
+    floor = new Sprite(0,370,600,60,"static");
 }        
 
 function draw() {
