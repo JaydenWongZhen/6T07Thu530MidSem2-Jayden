@@ -4,7 +4,7 @@ function setup() {
     if (mouse.presses()) {
         ball = new Sprite(mousex,mousey,20);
     }        
-    world.gravity = 2;
+    world.gravityY = 2;
 }
 function draw() {
     background(255);
